@@ -103,7 +103,7 @@ main section img:hover {
 
 .mensagem-erro {
     color: rgb(255, 0, 0);
-    text-shadow: 0 0 0.2rem #F87, 0 0 0.2rem #F87;
+    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
 }
 
 .formulario__botao {
