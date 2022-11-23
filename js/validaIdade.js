@@ -3,13 +3,7 @@ export default function ehMaiorDeIdade(campo) {
     const dataNascimento = new Date(campo.value);
     validaIdade(dataNascimento);
 
-    if (validaIdade(dataNascimento) == true) {
-        console.log("deu certo");
-    }
-
-    else {
-        console.log("deu ruim");
-    }
+    console.log(validaIdade(dataNascimento));
 }
 
 function validaIdade(data) {

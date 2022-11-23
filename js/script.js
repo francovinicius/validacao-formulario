@@ -1,4 +1,4 @@
-import ehUmCPF from "./validaCpf.js";
+import removePt from "./validaCpf.js";
 import ehMaiorDeIdade from "./validaIdade.js";
 
 // Selecionando todos elementos required
