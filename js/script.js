@@ -1,10 +1,8 @@
 import removePt from "./validaCpf.js";
 import ehMaiorDeIdade from "./validaIdade.js";
-
 // Selecionando todos elementos required
 
 const camposDoFormulario = document.querySelectorAll("[required]");
-
 camposDoFormulario.forEach ((campo) => {
     campo.addEventListener("blur", () => verificaCampo(campo));
     campo.addEventListener("invalid", evento => evento.preventDefault());
@@ -58,8 +56,15 @@ function verificaCampo(campo) {
     tiposDeErro.forEach(erro => {
         if (campo.validity[erro]) {
             mensagem = mensagens[campo.name][erro];
-            console.log(mensagem);
         }
     })
 
+    const mensagemErro = campo.parentNode.querySelector('.mensagem-erro');
+    const validadorDeInput = campo.checkValidity();
+
+    if (!validadorDeInput) {
+        mensagemErro.textContent = mensagem;
+    } else {
+        mensagemErro.textContent = ""
+    }
 }

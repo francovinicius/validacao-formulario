@@ -1,0 +1,69 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+    opacity: 0.9;
+}
+
+header {
+    opacity: 0.9;
+}
+
+.container-navbar {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+
+    background-color: #1D2226;
+
+    color: #FFFFFF;
+
+    font-weight: 600;
+    font-size: 22px;
+
+    
+}
+
+main section img {
+
+    width: 800px;
+    margin-top: 5rem;
+    opacity: 0.8;
+}
+
+.chamada{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.campo__etiqueta {
+
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.formulario__campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 5px;
+
+}
+
+.campo__escrita{
+
+    background: #1D2226;
+    color: #FFFFFF;
+    border-radius: 5px;
+    height: 50px;
+
+    font-size: 24px;
+}
+.mensagem-erro {
+    color: red;
+}
+
