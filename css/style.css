@@ -26,8 +26,9 @@ header {
 
 main section img {
 
-    width: 537px;
+    width: 450px;
     margin-top: 5rem;
+    margin-left: 25px;
     opacity: 0.8;
 }
 
@@ -40,7 +41,7 @@ main section img:hover {
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
     width: 100%;
 
@@ -55,15 +56,18 @@ main section img:hover {
 }
 
 .principal__formulario {
+    position: absolute;
+
     border: 1px solid #1D2226;
-    margin-left: -20rem;
     border-radius: 15px;
     width: 57rem;
+    left: 470px;
 }
 
 .formulario__campo {
     display: flex;
     flex-direction: column;
+    
 
     padding-left: 50px;
     padding-top: 25px;
@@ -103,7 +107,7 @@ main section img:hover {
 
 .mensagem-erro {
     color: rgb(255, 0, 0);
-    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+    text-shadow: 0 0 0.2em #F87, 0 0 0.2git em #F87;
 }
 
 .formulario__botao {
